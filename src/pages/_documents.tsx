@@ -47,6 +47,10 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
           />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap"
+            rel="stylesheet"
+          />
 
           <link rel="icon" href="https://rocketseat.com.br/favicon.ico" />
         </Head>

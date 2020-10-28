@@ -1,8 +1,12 @@
-const withImages = require('next-images')
-
-module.exports = withImages({
-  esModule: true,
-  webpack(config, options) {
-    return config
+module.exports = {
+  images: {
+    deviceSizes: [320, 420, 768, 1024, 1200],
+    iconSizes: [],
+    domains: [],
+    path: '/_next/image',
+    loader: 'default'
   }
-})
+}
+
+const withImages = require('next-images')
+module.exports = withImages()
